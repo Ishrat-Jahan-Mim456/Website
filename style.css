@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+		font-family: 'Akaya Kanadaka', cursive;
+	    line-height: 1.5;
+}
+.container{
+    width: 70%;
+    margin: 0 auto;   
+}
+.header .row{
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.header{
+    background-image: url("pexels-miriam-espacio-110854.jpg");
+	min-height: 400px;
+	overflow: hidden;
+	padding: 4em 0;
+}
+.col-2-1{
+    width: 35%;
+    float: left;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    margin-top:4em ;
+	margin-right: 2em;
+}
+.header img{
+    border-radius: 50%;
+    border: 1px solid #000;
+}
+.col-2-2{
+    width: 60%;
+    float: right;
+	margin-top: 4em;
+}
+.header h2{
+	font-family: 'Pacifico', cursive;
+    font-size: 3em;
+	color: #fff;
+} 
+.header b{
+	font-size: 3em;
+	font-weight: 100;
+
+}
+section{
+	background: url(section-bg.png);
+	background-size: cover;
+	min-height: 300px;
+	text-align: center;
+	padding: 4em 0;
+	overflow: hidden;
+}
+section h2{
+	font-family: 'Otomanopee One', sans-serif;
+	font-size: 2em;
+    color: #4C6796;
+	margin-bottom: 2em;
+}
+.my-skills .introduction{
+	font-size: 1.5em;
+	line-height: 1.3em;
+	color: rgba(101, 110, 117, 0.849);
+}
+.my-skills h3{
+	font-family: 'Otomanopee One', sans-serif;
+    font-size: 1.5em;
+	color: #4C6796;
+}
+.my-skills h4{
+	font-size: 1.2em;
+	margin-top: 1em;
+}
+.my-skills .introduction p{
+	margin: 0 auto;
+	width: 60%;
+	text-align: center;
+}
+.my-skills .working-experience .heading{
+	display: block;
+	text-align: left;
+}
+.my-skills .working-experience .heading img{
+	display: inline-block;
+}
+.working-experience .row, .education .row, .organization .row{
+	margin-top: 2em;
+	margin-bottom: 2em;
+	overflow: hidden;
+}
+.working-experience .row hr, .education .row hr, .organization .row hr{
+	opacity: 50%;
+	margin-top: 2em;
+}
+.working-experience .row .col-2, .education .row .col-2, .organization .row .col-2{
+	width: 30%;
+	float: left;
+}
+.working-experience .row h3, .education .row h3, .organization .row h3{
+	color: #000;
+	font-size: 1.5em;
+}
+.working-experience .row h4, .education .row h4, .organization .row h4, .projects h4{
+	color: #000;
+	font-size: 1em;
+	opacity: 50%;
+	font-family: 'Otomanopee One', sans-serif;
+}
+.working-experience .row p, .education .row p, .organization .row p{
+	text-align: justify;
+}
+.web-dev-skill .center{
+	text-align: center;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+.prog-skill p, .prog-skill button{
+	display: inline;
+	margin-bottom: 1em;
+}
+.prog-skill button{
+	background-color:  rgba(101, 110, 117, 0.849);
+	color: #fff;
+	border-radius: 10px;
+	border: 1px solid #fff;
+	padding: .7em;
+    margin-left: 1em;
+	font-size: .8em;
+}
+.prog-skill p{
+	font-size: 1.5em;
+}
+.projects h2{
+	margin-bottom: .2em;
+}
+.projects .container{
+	display: block;
+}
+.projects .row .col-4{
+	width: 50%;
+	float: left;
+}
+.projects .row .projects-image{
+	width: 350px;
+	height: auto;
+	display: block;
+	margin-top: 2em;
+	margin-right: 5em;
+	border: 1px solid #fff;
+	border-radius: 10px;
+    
+}
+.projects h3, .projects p{
+ text-align: center;
+}
+.projects h3{
+ margin-top: .5em;
+}
+.projects .ext{
+        color: rgba(101, 110, 117, 0.849);
+		font-size: 1.3em;
+}
+.projects hr{
+	opacity: 50%;
+	margin-top: 5em;
+}
+.contacts h3{
+	font-family: 'Otomanopee One', sans-serif;
+    font-size: 1.3em;
+	color: #4C6796;
+	margin-bottom: 3em;
+}
+.contacts ul li{
+	display: inline-block;
+	margin-right: 3em;
+}
+.contacts ul li a{
+	text-decoration: none;
+	font-size: 1em;
+}
