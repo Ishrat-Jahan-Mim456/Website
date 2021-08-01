@@ -186,3 +186,81 @@ section h2{
 	text-decoration: none;
 	font-size: 1em;
 }
+@media (max-width: 760px) {
+	.container{
+		width: 100%;  
+	}
+	.col-2-1{
+		width: 100%;
+		float: inherit;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.image{
+		display: flex;
+		justify-content: center;
+		height: 150px;
+		width: 150px;
+		margin-left: 3em;
+	}
+	.header img{
+		border-radius: 50%;
+		border: 1px solid #000;
+	}
+	.col-2-2{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		float: inherit;
+		margin-top: 8em;
+	}
+	.header h2{
+		font-family: 'Pacifico', cursive;
+		font-size: 1.5em;
+		color: #fff;
+	} 
+	.header b{
+		font-size: 1.9em;
+		font-weight: 100;
+	}
+	.my-skills .introduction p{
+		margin: 0 auto;
+		width: 90%;
+	}
+	.working-experience .row .col-2, .education .row .col-2, .organization .row .col-2{
+		width: 100%;
+	
+		display:flex;
+		justify-content: center;
+	}
+	.working-experience .row p, .education .row p, .organization .row p{
+		text-align: center;
+		width: 95%;
+	}
+	.projects .container{
+		/*display: flex;
+		justify-content: center;
+		align-items: center;*/
+	}
+	.projects .row .col-4{
+		width: 90%;
+		float: inherit;
+	}
+	.projects .row .projects-image{
+		width: 350px;
+		height: auto;
+		display: block;
+		margin-top: 2em;
+		margin-left: .5em;
+		border: 1px solid #fff;
+		border-radius: 10px;
+	}
+	.contacts ul li{
+		display: flex;
+        justify-content: center;
+		align-items: center;
+		margin-bottom: 1em;
+	}
+}
